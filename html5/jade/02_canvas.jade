@@ -1,0 +1,70 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title  canvas(html5)
+  body
+    h1 canvas (html5)
+    hr
+    h2 Cuadrado
+    canvas#cuadrado
+    h2 Rectangulo
+    canvas#rectangulo
+    h1 Triangulo
+    canvas#triangulo
+    h1 Circulo
+    canvas#circulo
+    h1 Corazon
+    canvas#corazon
+    h1 Texto
+    canvas#texto
+    script.
+      //Cuadrado
+      var canvas = document.getElementById("cuadrado");
+      var ctx= canvas.getContext("2d");
+      ctx.fillStyle = "red";
+      ctx.fillRect( 20, 20, 100, 100);
+      //Rectangulo
+      var canvas = document.getElementById("rectangulo");
+      var ctx = canvas.getContext("2d");
+      ctx.fillStyle = "yellow";
+      ctx.fillRect( 20, 20, 200, 100);
+      
+      //Triangulo
+      var canvas = document.getElementById('triangulo');
+      var ctx = canvas.getContext('2d');
+      ctx.beginPath();
+      ctx.moveTo(300,110);
+      ctx.lineTo(200,10);
+      ctx.lineTo(100,110);
+      ctx.fill();     
+
+      //Circulo
+      var c=document.getElementById("circulo");
+      var cxt=c.getContext("2d");
+      cxt.fillStyle ="red";
+      cxt.beginPath();
+      cxt.arc(60,60,50,0,Math.PI*2,true);
+      cxt.closePath();
+      cxt.fill();
+      //Corazon
+      var canvas = document.getElementById('corazon');
+      var ctx = canvas.getContext('2d');
+      ctx.beginPath();
+      ctx.moveTo(75,40);
+      ctx.bezierCurveTo(75,37,70,25,50,25);
+      ctx.bezierCurveTo(20,25,20,62.5,20,62.5);
+      ctx.bezierCurveTo(20,80,40,102,75,120);
+      ctx.bezierCurveTo(110,102,130,80,130,62.5);
+      ctx.bezierCurveTo(130,62.5,130,25,100,25);
+      ctx.bezierCurveTo(85,25,75,37,75,40);
+      ctx.fill();
+      //Text
+      var canvas = document.getElementById("texto");
+      var ctx = canvas.getContext("2d");
+      ctx.font = "bold 22px sans-serif";
+      ctx.fillText("LUIS H",50,50);
+      ctx.fillStyle = "60px Tahoma";
+
+      
+      

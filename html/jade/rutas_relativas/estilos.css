@@ -1,0 +1,50 @@
+body {
+  background-color: #999;
+  font: 17px Tahoma;
+  color: #ff4500
+}
+.marcoppal {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  width: 600px;
+  
+}
+.encabezado {
+  background-color: #ccc;
+  padding: 30px;
+}
+.encabezado a {
+  background-color: #fff;
+  color: #333;
+  padding: 20px 36px;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: all 0.5 ease-in;
+}
+.encabezado a:hover {
+  background-color: orange;
+  color: #fff;
+}
+.contenido {
+  text-align: center;
+}
+
+.contenido img {
+  transition: all 0.5s ease-in-out;
+}
+.contenido:hover img {
+  transform: scale(1.1);
+}
+.contenido p {
+  color: #777;
+  text-align: jusify;
+  padding: 20px;
+  line-height: 24px;
+}
+.contenido:hover {
+  background-color: #eee;
+}
+.pie {
+  text-align: center;
+}
