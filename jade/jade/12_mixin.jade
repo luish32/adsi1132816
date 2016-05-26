@@ -1,0 +1,42 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Document
+  body
+  //- Declaracion
+  mixin list
+    ul
+      li Amarillo
+      li Azul
+      li Rojo
+   //- Use
+  +list
+  +list
+  
+  mixin pet(name)
+    li.pet= name
+  ul 
+    +pet('Perro')
+    +pet('Gato')
+    +pet('Cerdo')
+  
+  mixin article (title)
+    .article
+      .article-wrapper
+        h1= "Mi Pagina"
+        if block
+          block
+        else
+          p Estoy escribiendo
+  +article("Hola Amigos")
+  +article("Hola mundo")
+    p Este es mi primer articulo
+ 
+ mixin link(href, name)
+
+    a(class!=attributes.class, href=href)= name
+
+    +link('/Archivo', 'Archivo')(class="btn")
+    
+  

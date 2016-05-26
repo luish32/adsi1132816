@@ -12,3 +12,8 @@ html(lang="es")
     h1= title
     p Escrito por #{author}
     p Esto es: #{theGreat}
+    - var msg = "No robar derechos de autor";
+    p Significa #{msg.toUpperCase()}
+    - var riskyBusiness = "<em>Some of the girls are wearing my mother's clothing.</em>";
+    .quote
+    p Joel: !{riskyBusiness}
