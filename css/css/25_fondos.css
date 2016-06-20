@@ -1,0 +1,17 @@
+div {
+  width: 250px;
+  height: 250px;
+}
+div#box1 {
+  background-color: #08f;
+}
+div#box2 {
+  background-image: url("../imgs/lobo.jpg");
+}
+div#box3 {
+  background-image: url("../imgs/azul.png");
+}
+article.box {
+  display: inline-block;
+  background-color: #f00;
+}

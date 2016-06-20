@@ -1,0 +1,15 @@
+/* Unidades de Medida Relativas */
+body {
+  font: 16px Tahoma;
+}
+/* Pixeles ¨*/
+h2.medidapx {
+  font-size: 18px;
+}
+/* Ems */
+h2.medidaem {
+  font-size: 2em;
+}
+h2.medidaex {
+  font-size: 3ex;
+}

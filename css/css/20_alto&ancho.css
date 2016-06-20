@@ -1,0 +1,38 @@
+div {
+  background-color: #ffe159;
+  border: 10px solid #00e8c5;
+  color: #9c5529;
+  margin-bottom: 10px;
+  font: 1.2em Tahoma;
+  text-align: center;
+}
+div.box1 {
+  height: 250px;
+  width: 250px;
+  background-color: #000;
+  color: #f00;
+}
+div.box2 {
+  height: 400px;
+  width: 600px;
+  background-color: #000;
+  color: #f00;
+}
+div.box3 {
+  height: 500px;
+  width: 250px;
+  background-color: #000;
+  color: #f00;
+}
+div.box4 {
+  height: 2cm;
+  width: 50%;
+  background-color: #000;
+  color: #f00;
+}
+div.box5 {
+  height: 2cm;
+  width: 80%;
+  background-color: #000;
+  color: #f00;
+}

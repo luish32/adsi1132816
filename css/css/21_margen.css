@@ -1,0 +1,22 @@
+h1 {
+  background-color: #f00;
+  color: withe;
+}
+section {
+  border: 4px dotted #0e71ec;
+  background-color: #3cf4d8;
+  width: 600px;
+  height: 600px;
+}
+section div.box {
+  background-color: #00f;
+  height: 100px;
+  width: 200px;
+/* MARGENES: Forma Larga */
+  margin-top: 210px;
+  margin-right: 250px;
+  margin-bottom: 220px;
+  margin-left: 200px;
+/*Forma Corta */
+  margin: 210px 250px 220px 200px;
+}
