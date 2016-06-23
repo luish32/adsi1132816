@@ -1,0 +1,25 @@
+section {
+  width: 300px;
+  height: 150px;
+  margin: 10px auto;
+  border: 2px solid #000;
+  font-size: 5em;
+  position: relative;
+}
+section.caja1 {
+  background-color: #02900c;
+  color: #fff;
+  z-index: 1;
+}
+section.caja2 {
+  background-color: #00b900;
+  z-index: 2;
+  top: -100px;
+  left: 150px;
+}
+section.caja3 {
+  background-color: #00ff12;
+  z-index: 3;
+  top: -190px;
+  left: 250px;
+}

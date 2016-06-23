@@ -1,17 +1,95 @@
-div {
-  width: 250px;
-  height: 250px;
+body {
+  background-color: #b95581;
+  font: 16px Tahoma;
+  color: #ffb0d5;
 }
-div#box1 {
-  background-color: #08f;
+h2 {
+  background-color: #944366;
+  padding: 20px;
 }
-div#box2 {
-  background-image: url("../imgs/lobo.jpg");
+section {
+  background-color: #c88cd7;
+  height: 400px;
+  padding: 20px;
 }
-div#box3 {
-  background-image: url("../imgs/azul.png");
-}
-article.box {
+section div {
   display: inline-block;
+  height: 380px;
+  width: 380px;
+  margin-left: 4px;
+}
+.fondocolor .fondo1 {
+  background-color: #ff0;
+}
+.fondocolor .fondo2 {
+  background-color: #00f;
+}
+.fondocolor .fondo3 {
   background-color: #f00;
+}
+.imagenfondo .fondo1 {
+  background-image: url("../imgs/name1.jpg");
+}
+.imagenfondo .fondo2 {
+  background-image: url("../imgs/name2.jpg");
+}
+.imagenfondo .fondo3 {
+  background-image: url("../imgs/nombre3.jpg");
+}
+.repetirfondo div {
+  background-color: #fff;
+  width: 283px;
+  background-image: url("../imgs/goku.gif");
+}
+section div h3 {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: center;
+}
+.repetirfondo .fondo1 {
+  background-repeat: repeat;
+}
+.repetirfondo .fondo2 {
+  background-repeat: no-repeat;
+}
+.repetirfondo .fondo3 {
+  background-repeat: repeat-x;
+}
+.repetirfondo .fondo4 {
+  background-repeat: repeat-y;
+}
+.posicionfondo {
+  height: 1200px;
+}
+.posicionfondo div {
+  background-color: #dc143c;
+  background-image: url("../imgs/goku.gif");
+  background-repeat: no-repeat;
+}
+.posicionfondo .fondo1 {
+  background-position: center left;
+}
+.posicionfondo .fondo2 {
+  background-position: center center;
+}
+.posicionfondo .fondo3 {
+  background-position: center right;
+}
+.posicionfondo .fondo4 {
+  background-position: top left;
+}
+.posicionfondo .fondo5 {
+  background-position: top center;
+}
+.posicionfondo .fondo6 {
+  background-position: top right;
+}
+.posicionfondo .fondo7 {
+  background-position: bottom left;
+}
+.posicionfondo .fondo8 {
+  background-position: bottom center;
+}
+.posicionfondo .fondo9 {
+  background-position: bottom right;
 }

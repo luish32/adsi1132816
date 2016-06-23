@@ -1,0 +1,32 @@
+body {
+  font: 16 px Tahoma;
+}
+section {
+  border: 2px solid #999;
+  height: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 600px;
+}
+section div {
+  border: 2px solid;
+  display: inline-block;
+  text-align: center;
+  line-height: 120px;
+  width: 188px;
+  margin-right: 6px;
+  margin-bottom: 20px;
+  height: 130px;
+}
+section div.nomargen {
+  margin-right: 0px;
+}
+section div.larga {
+  width: 594px;
+}
+section div.mover {
+  position: absolute;
+  left: 700px;
+  top: 615px;
+  background-color: #fff;
+}
