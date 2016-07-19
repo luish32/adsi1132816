@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin: 40px 30px 50px 50px;
+  border: solid 2px;
+  border-color: #008000;
+}
+hr {
+  border-color: #f00;
+  border: 2px solid;
+}
+p.normal {
+  font-style: normal;
+}
+p.italic {
+  font-style: italic;
+}
+p.oblique {
+  font-style: oblique;
+}
+section {
+  background-color: #808080;
+}

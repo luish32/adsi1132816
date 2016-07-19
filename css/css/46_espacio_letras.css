@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+section {
+  border: solid 2px;
+  display: inline-block;
+  padding: 2px;
+  width: 200px;
+  vertical-align: top;
+}
+section.box1 {
+  letter-spacing: 0;
+}
+/* Espacio letter-spacing*/
+section.box2 {
+  letter-spacing: 0.5em;
+}
+section.box3 {
+  letter-spacing: 1em;
+}

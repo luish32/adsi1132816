@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: #000;
+}
+section div {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
+section div.caja1 {
+  width: 150px;
+  height: 220px;
+  border: 2px solid;
+  line-height: 1.2em;
+}
+section div.caja2 {
+  width: 150px;
+  height: 300px;
+  border: 2px solid;
+  line-height: 1.5em;
+}
+section div.caja3 {
+  width: 150px;
+  height: 380px;
+  line-height: 2em;
+  border: 2px solid;
+}
+div {
+  vertical-align: top;
+}
+h1 {
+  color: #f00;
+}
+p {
+  color: #f00;
+  text-align: center;
+  display: inline-block;
+}

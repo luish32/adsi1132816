@@ -1,0 +1,19 @@
+section {
+  width: 250px;
+  height: 150px;
+  border: solid 2px;
+  display: inline-block;
+}
+img {
+  width: 100px;
+}
+.cua {
+  border-style: dashed;
+  color: #f00;
+}
+p.casa {
+  vertical-align: baseline;
+}
+p.coso {
+  vertical-align: bottom;
+}

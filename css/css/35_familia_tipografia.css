@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  vertical-align: center;
+  display: inline;
+}
+section.serif {
+  font-family: serif, Times;
+  color: #00f;
+  padding: 30px;
+  margin: 0px auto;
+  border: solid 3px;
+  border-color: #008000;
+  width: 400px;
+  height: 400px;
+  margin-left: 40px;
+}
+section.sans {
+  font-family: sans-serif, Verdana;
+  color: #f00;
+  paddinng: 30px;
+  margin: 0px auto;
+  border: solid 3px;
+  height: 400px;
+  margin-right: 100px;
+  margin-top: -450px;
+  width: 400px;
+}

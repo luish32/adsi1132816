@@ -1,0 +1,14 @@
+body {
+  background-color: #000;
+  margin: 0px 0px 0px 20px;
+  height: 600px;
+  width: 1000px;
+  border: solid 3px;
+  border-color: #f00;
+}
+h1 {
+  color: #2db2e3;
+}
+p {
+  color: #f00;
+}
