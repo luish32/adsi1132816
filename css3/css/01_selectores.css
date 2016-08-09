@@ -1,0 +1,191 @@
+html {
+  font-size: 63.5%;
+}
+body {
+  background-color: #ab3361;
+  font: 1.6rem Arial;
+}
+fieldset {
+  border: none;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 800px;
+}
+fieldset legend {
+  background-color: #ed4786;
+  color: #fff;
+  paddings: 4px 40px;
+}
+fieldset legend h2 {
+  margin: 0px;
+  padding: 0px;
+}
+/* -------------------------------------------
+p~ul
+------------------------------------------- */
+p~ul {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+}
+/* -------------------------------------------
+a[href^="https" // Solo se la aplica a los que tienen https
+------------------------------------------- */
+a[href^="https"] {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #70811a;
+}
+/* -------------------------------------------
+a[href$="pdf" 
+------------------------------------------- */
+a[href$="pdf"] {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #70811a;
+}
+/* -------------------------------------------
+[ a[href*="google"  ] 
+------------------------------------------- */
+a[href*="google"] {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #70811a;
+}
+/* -------------------------------------------
+[ p:first-of-type ]
+------------------------------------------- */
+fieldset.coso p:first-of-type {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #70811a;
+}
+/* -------------------------------------------
+[ p:last-of-type ]
+------------------------------------------- */
+fieldset.casa p:last-of-type {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #70811a;
+}
+/* -------------------------------------------
+[ p:only-of-type ]
+------------------------------------------- */
+fieldset.rata p:only-of-type {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ p:only-child ]
+------------------------------------------- */
+fieldset.copo p:only-child {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ p:nth-child ]
+------------------------------------------- */
+fieldset.roto p:nth-child(2) {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ p:nth-last-child ]
+------------------------------------------- */
+fieldset.siete p:nth-last-child(2) {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ p:nth-of-child ]
+------------------------------------------- */
+fieldset.ocho p:nth-of-type(3) {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ p:nth-last-of-type ]
+------------------------------------------- */
+fieldset.nueve p:nth-last-of-type(4) {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ p:last-child ]
+------------------------------------------- */
+fieldset.diez p:last-child {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ :root ]
+------------------------------------------- */
+:root {
+  background-color: #00f;
+}
+/* -------------------------------------------
+[ :empty ]
+------------------------------------------- */
+fieldset.doce :empty {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ #Destino:target ]
+------------------------------------------- */
+fieldset.trece #destino1:target,
+fieldset.trece #destino2:target,
+fieldset.trece #destino3:target {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ input: enabled / disabled
+------------------------------------------- */
+fieldset.catorce input:enabled {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+input:disabled {
+  background-color: #f00;
+}
+/* -------------------------------------------
+[ input:checked ]
+------------------------------------------- */
+fieldset.diesiceis input:checked {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+input[type=checkbox] {
+  -webkit-appearance: none /* Quitar apariencia*/;
+  background-color: #ab3361;
+}
+input:checked {
+  border: 2px solid #acc62b;
+}
+/* -------------------------------------------
+[:not(p) ]
+------------------------------------------- */
+fieldset.diesiocho :not(p) {
+  background-color: #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #000;
+}
+/* -------------------------------------------
+[ ::selection ]
+------------------------------------------- */
+::selection {
+  background-color: #f00;
+  color: #fff;
+}
